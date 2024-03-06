@@ -1,0 +1,22 @@
+This project is meant to simulate two players playing a game to see the stastical results of how to best play the game. The game is called UnoWar, and the rules are as follows:
+Each player has a hand of 5 cards.
+The game starts by dealing a card from the deck onto a pile in the middle. Players then take turns
+playing a card from their hand. The card they play must have the same suit, as the card in the
+middle, or the same or higher rank. Play goes back and forth until one of the players is unable to
+play a card. At that point the other player gets one point. The first player to 10 points wins. 
+After a player plays a card they always draw a replacement (so hands always have 5 cards) and
+if the deck is ever empty – it is immediately re-shuffled (so the players can always draw another
+card). (In our computer simulation we will reshuffle with a new set of 52 cards, however, in real-life
+play only the cards not being used would be shuffled)
+
+Several things were learned when implementing this project:
+-How to implement Lists
+-create basic AI's to play with simple strategies
+-Extensive use of objects
+
+Three different AI strategies were implemented:
+-One which just chooses a card at random to play
+-One which chooses the smallest ranked card to play
+-One which chooses the largest ranked card to play
+
+If you want to see how this program works, run tournament.java.
